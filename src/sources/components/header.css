@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.first-section {
+  height: auto;
+  width: 100%;
+  background-image: url(../assets/CH-en-20220613-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  background-color: #e50914;
+}
+.overlay {
+  background: repeating-linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.overlay2 {
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 0, 0, 0.996)
+  );
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.header {
+  height: 3.125rem;
+  max-height: 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem;
+  position: relative;
+  z-index: 1;
+}
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size:1.5625rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: #e50914;
+}
+.header button {
+  margin-top: 0px;
+  padding: 0.3125rem 0.625rem;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  border-radius: 0.125rem;
+}
+.header-title {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 28.125rem;
+  margin: auto;
+  position: inherit;
+  z-index: 1;
+  padding: 0.625rem;
+}
+.prospect {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+.header-title p:last-of-type {
+  font-size: 0.8125rem;
+}
+.searchbar {
+  width: 100%;
+  margin-top: 0.625rem;
+}
+.searchbar input {
+  height: 2.25rem;
+  max-height: 2.25rem;
+  outline: none;
+  text-indent: 0.4375rem;
+  width: 70%;
+}
+.searchbar button {
+  padding: 0.625rem 0rem;
+  width: 30%;
+  color: white;
+  border: none;
+  background-color: red;
+}
+
+@media screen and (max-width: 900px) {
+  .prospect {
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .searchbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.625rem;
+  }
+  .searchbar input {
+    height: 2.25rem;
+    max-height: 2.25rem;
+    outline: none;
+    text-indent: 0.4375rem;
+    width: 95%;
+    
+  }
+  .searchbar button {
+
+    margin-top: 1.5625rem;
+    padding: 0.625rem 0rem;
+    letter-spacing: 0.1rem;
+    width: 50rem;
+    max-width: 7.5rem;
+    color: white;
+    border: none;
+    background-color: red;
+    font-size: 0.8em;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 0.1875rem;
+  }
+}

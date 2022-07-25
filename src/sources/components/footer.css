@@ -1,0 +1,20 @@
+.footer {
+  border-top: 0.5rem solid rgb(63, 58, 58);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9f9b9b;
+  padding: 1.875rem 0.9375rem;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 0.625rem 0rem;
+    font-size: 0.8125rem;
+}
+li:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
