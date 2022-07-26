@@ -9,12 +9,9 @@ export default function Recomposible3() {
           </h3>
           <br />
           <p>
-            Stream unlimited movies and TV shows on <br/>your phone, tablet, laptop,
-            
-            and TV.
+            Stream unlimited movies and TV shows <br/> on your phone, tablet, laptop, and TV.
           </p>
         </div>
-        <div className="item---"></div>
       </div>
     );
 }

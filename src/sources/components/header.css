@@ -40,29 +40,29 @@
   z-index: 1;
 }
 .header {
-  height: 3.125rem;
-  max-height: 6.25rem;
+  height: 50px;
+  max-height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.625rem;
+  padding: 10px;
   position: relative;
   z-index: 1;
 }
 .title {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size:1.5625rem;
+  font-size:25px;
   font-weight: 800;
   letter-spacing: 0.15em;
   color: #e50914;
 }
 .header button {
-  margin-top: 0px;
-  padding: 0.3125rem 0.625rem;
+  margin-top: 0rem;
+  padding: 5px 10px;
   background-color: #e50914;
   border: none;
   color: white;
-  border-radius: 0.125rem;
+  border-radius: 2px;
 }
 .header-title {
   height: 100vh;
@@ -70,33 +70,34 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 28.125rem;
+  max-width: 450px;
   margin: auto;
   position: inherit;
   z-index: 1;
-  padding: 0.625rem;
+  padding: 10px;
 }
 .prospect {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 700;
-  margin-bottom: 1.25rem;
+  margin-bottom: 20px;
 }
 .header-title p:last-of-type {
-  font-size: 0.8125rem;
+  font-size: 13px;
+  text-align: center;
 }
 .searchbar {
   width: 100%;
-  margin-top: 0.625rem;
+  margin-top: 10px;
 }
 .searchbar input {
-  height: 2.25rem;
-  max-height: 2.25rem;
+  height: 36px;
+  max-height: 36px;
   outline: none;
-  text-indent: 0.4375rem;
+  text-indent: 7px;
   width: 70%;
 }
 .searchbar button {
-  padding: 0.625rem 0rem;
+  padding: 10px 0px;
   width: 30%;
   color: white;
   border: none;
@@ -105,7 +106,7 @@
 
 @media screen and (max-width: 900px) {
   .prospect {
-    font-size: 1.75rem;
+    font-size: 28px;
     font-weight: 700;
     text-align: center;
   }
@@ -116,28 +117,28 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 0.625rem;
+    margin-top: 10px;
   }
   .searchbar input {
-    height: 2.25rem;
-    max-height: 2.25rem;
+    height: 36px;
+    max-height: 36px;
     outline: none;
-    text-indent: 0.4375rem;
+    text-indent: 7px;
     width: 95%;
     
   }
   .searchbar button {
 
-    margin-top: 1.5625rem;
-    padding: 0.625rem 0rem;
-    letter-spacing: 0.1rem;
-    width: 50rem;
-    max-width: 7.5rem;
+    margin-top: 25px;
+    padding: 10px 0px;
+    letter-spacing: 1.6px;
+    width: 800px;
+    max-width: 120px;
     color: white;
     border: none;
     background-color: red;
     font-size: 0.8em;
     font-family:Arial, Helvetica, sans-serif;
-    border-radius: 0.1875rem;
+    border-radius: 3px;
   }
 }
